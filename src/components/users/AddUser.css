@@ -1,0 +1,45 @@
+.add-user {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-user label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.add-user input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.add-user input:focus {
+  outline: none;
+  border-color: purple;
+}
+
+.add-user button {
+  width: max-content;
+  align-self: flex-end;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-weight: bold;
+  color: white;
+  font-size: large;
+  background-color: purple;
+}
+
+.add-user button:hover,
+.add-user button:active {
+  background-color: darkmagenta;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
