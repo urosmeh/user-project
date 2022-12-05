@@ -1,0 +1,14 @@
+.user-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  border-radius: 4px;
+  /* align-content: center; */
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+h5,
+h4 {
+  text-align: center;
+}
